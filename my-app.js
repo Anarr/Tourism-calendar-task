@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+$( ".data-div" ).draggable({});
 // lsit seklinde olan melumat box-un gizledirik
 		$('.data-div').hide();
 
@@ -69,14 +69,14 @@ $(document).ready(function() {
 
 					$("#start-date").prop('disabled', true);
 					$("#end-date").prop('disabled', true);
-
+					
 					//ilkin olaraq fullcalendar.io -un event massivin silib custom event massivimizi muvafiq xanalara yerlesdirik
 					$('#calendar').fullCalendar('removeEventSource', events);
 					$('#calendar').fullCalendar('addEventSource', events);
 
 					//list seklinde olan melumat box-una gelen data-ni jquery vasitesi ile yerlesdirirk
 					$.each(events,function(i,item){
-						li.push('<li class="list-group-item my-li-hover">Tarix: ' + item.start +" Qiymet: "+ item.title  + '$</li>');
+						li.push('<li class="list-group-item my-li-hover">Tarix: ' + item.start +" Qiymet: "+ item.title  + '<span class="glyphicon glyphicon-usd"></span></li>');
 					});
 
 					$('.data-div').append("<h2>Prices for relevant dates</h2><ul class='list-group my-list'><li class='list-group-item active'>Tarix: Qiymet:</li>"+ li.join(' ') +"</ul>").fadeIn(500);
@@ -95,6 +95,7 @@ $(document).ready(function() {
 				//}
 				$('#calendar').fullCalendar('unselect');
 				alert(localStorage.getItem("eve"));
+
 			},
 
 			editable: true,

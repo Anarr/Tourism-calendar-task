@@ -14,11 +14,18 @@ body {
 .my-form{
 	margin:120px 0 0 0;
 }
+.data-div{
+	cursor: move;
+}
 
+.my-li-hover{
+	-webkit-transition:1s;
+    transition: 1s;
+}
 .my-li-hover:hover{
 	background: silver;
 }
 
 .my-list{
-	font-family: sans-serif;
+	font-family: tahoma;
 }
