@@ -1,7 +1,8 @@
 # Tourism-calendar-task
 
-Fullcalendar.io plugin istifade etmisem. Menim elimde olan yalniz avqust ayi ucun melumatlardir. yeni data.json file-nda olan qiymet listi 
+Fullcalendar.io plugin istifade etmisem. Menim elimde olan yalniz avqust ayi ucun (8-30) araligi melumatlardir. yeni data.json file-nda olan qiymet listi 
 avqust ayi ucun deyisir.
+Calendarda olan her hansi bir gune click edende hemin gun ucun olan qiymeti yeniden cap edir( yeni tek aralig daxil etmesede olar).  
 Bootstrap istifade etmisem ve page responsive-dir.
 Test elemek ucun folder-i her hansi php servere atmaq kifayetdir (xammp,wammp,vertrigo..etc)
 Custom fayylarimin gorduyu is muvafiq olaraq beledir:
