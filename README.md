@@ -12,3 +12,5 @@ my-app.js - data.php faylina selectable eventene gore ajax post request gonderir
 data.php  = my-app.js -den requestin olub olmamagina gore melumat qaytarir.
 
 P.S: Zehemt olmasa melumat haqqinda pis ve ya yaxsi xeber verersiniz, ve modulun catismazliqarini mene soylesez uzerimde isleyib aradan qaldirardim.
+
+
